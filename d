@@ -285,12 +285,11 @@ TextLabel_8.BackgroundTransparency = 1.000
 TextLabel_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_8.BorderSizePixel = 0
 TextLabel_8.Position = UDim2.new(-0.125000298, 26, 0.197530866, -19)
-TextLabel_8.Size = UDim2.new(0, 207, 0, 124)
+TextLabel_8.Size = UDim2.new(0, 207, 0, 108)
 TextLabel_8.Font = Enum.Font.SourceSans
 TextLabel_8.Text = "Thanks for using FoxWorth Cheat Injector And please if you can support the Hack Coders and Developer of FoxWare and FoxWorth Cheat Injector\\n"
 TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_8.TextScaled = true
-TextLabel_8.TextSize = 14.000
+TextLabel_8.TextSize = 19.000
 TextLabel_8.TextWrapped = true
 
 TextLabel_9.Parent = Cred
@@ -337,71 +336,71 @@ X.TextWrapped = true
 
 -- Scripts:
 
-local function ROSN_fake_script() -- TextLabel_3.LocalScript 
+local function EYJAH_fake_script() -- TextLabel_3.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_3)
 
 	local player = game.Players.LocalPlayer
 	
 	script.Parent.Text = player.Name
 end
-coroutine.wrap(ROSN_fake_script)()
-local function UTIYW_fake_script() -- foxware.LocalScript 
+coroutine.wrap(EYJAH_fake_script)()
+local function THIW_fake_script() -- foxware.LocalScript 
 	local script = Instance.new('LocalScript', foxware)
 
 	foxware.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/mrfoxworth/didactic-garbanzo/main/Fox"))()
 	end)
 end
-coroutine.wrap(UTIYW_fake_script)()
-local function XIOWLYP_fake_script() -- pug.LocalScript 
+coroutine.wrap(THIW_fake_script)()
+local function PILJQD_fake_script() -- pug.LocalScript 
 	local script = Instance.new('LocalScript', pug)
 
 	pug.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/mrfoxworth/super-funicular/main/g"))()
 	end)
 end
-coroutine.wrap(XIOWLYP_fake_script)()
-local function GTMULRJ_fake_script() -- quotas.LocalScript 
+coroutine.wrap(PILJQD_fake_script)()
+local function VWJVOSV_fake_script() -- quotas.LocalScript 
 	local script = Instance.new('LocalScript', quotas)
 
 	quotas.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Insertl/QuotasHub/main/BETAv1.3"))()
 	end)
 end
-coroutine.wrap(GTMULRJ_fake_script)()
-local function XLLQ_fake_script() -- inf.LocalScript 
+coroutine.wrap(VWJVOSV_fake_script)()
+local function YFQJ_fake_script() -- inf.LocalScript 
 	local script = Instance.new('LocalScript', inf)
 
 	inf.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 	end)
 end
-coroutine.wrap(XLLQ_fake_script)()
-local function KJCFM_fake_script() -- verified.LocalScript 
+coroutine.wrap(YFQJ_fake_script)()
+local function ITFOC_fake_script() -- verified.LocalScript 
 	local script = Instance.new('LocalScript', verified)
 
 	verified.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/mrfoxworth/automatic-octo-parakeet/main/x"))()
 	end)
 end
-coroutine.wrap(KJCFM_fake_script)()
-local function JZHJMOO_fake_script() -- internal.LocalScript 
+coroutine.wrap(ITFOC_fake_script)()
+local function LHEJHG_fake_script() -- internal.LocalScript 
 	local script = Instance.new('LocalScript', internal)
 
 	internal.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/mrfoxworth/verbose-journey/main/b"))()
 	end)
 end
-coroutine.wrap(JZHJMOO_fake_script)()
-local function TWFBU_fake_script() -- TextLabel_6.LocalScript 
+coroutine.wrap(LHEJHG_fake_script)()
+local function XZXXA_fake_script() -- TextLabel_6.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_6)
 
 	local player = game.Players.LocalPlayer
 	
 	script.Parent.Text = player.Name
 end
-coroutine.wrap(TWFBU_fake_script)()
-local function GZTAIV_fake_script() -- panel.LocalScript 
+coroutine.wrap(XZXXA_fake_script)()
+local function UGDV_fake_script() -- panel.LocalScript 
 	local script = Instance.new('LocalScript', panel)
 
 	local frame = script.Parent.Parent.panel --in the .frame - you should need to change it what is your frame name.
@@ -426,8 +425,8 @@ local function GZTAIV_fake_script() -- panel.LocalScript
 		end
 	end)
 end
-coroutine.wrap(GZTAIV_fake_script)()
-local function ZUIYPUG_fake_script() -- panel.LocalScript 
+coroutine.wrap(UGDV_fake_script)()
+local function VUZGQQI_fake_script() -- panel.LocalScript 
 	local script = Instance.new('LocalScript', panel)
 
 	local UIS = game:GetService("UserInputService")
@@ -468,4 +467,4 @@ local function ZUIYPUG_fake_script() -- panel.LocalScript
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(ZUIYPUG_fake_script)()
+coroutine.wrap(VUZGQQI_fake_script)()
